@@ -1,6 +1,6 @@
 {
   "name": "nice-require",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Tries to import a module. Ignores any error that occurs.",
   "main": "index.js",
   "repository": "mrozio13pl/nice-require",
