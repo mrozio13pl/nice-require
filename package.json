@@ -1,0 +1,33 @@
+{
+  "name": "nice-require",
+  "version": "0.0.0",
+  "description": "Tries to import a module. Ignores any error that occurs.",
+  "main": "index.js",
+  "repository": "mrozio13pl/nice-require",
+  "author": "mrozio13pl",
+  "license": "MIT",
+  "scripts": {
+    "test": "uvu test .spec.js$",
+    "prepublishOnly": "npm t"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "nice",
+    "import",
+    "require",
+    "try",
+    "catch",
+    "optional",
+    "dev",
+    "module",
+    "dependency",
+    "error",
+    "undefined"
+  ],
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "uvu": "^0.5.6"
+  }
+}
