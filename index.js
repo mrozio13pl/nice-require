@@ -21,3 +21,13 @@ function formatPath (_module) {
 module.exports = function (_module) {
     try { return require(formatPath(_module)); } catch {}
 };
+
+/**
+ * Tries to dynamically import a module. Returns `undefined` if fails.
+ * @param {String} module - Module you want to import. 
+ * @returns {Promise} Required module or `undefined`.
+ * @todo Add support for file paths.
+ */
+module.exports.promise = async function (_module) {
+    try { return await import(_module); } catch {}
+};

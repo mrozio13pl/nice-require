@@ -26,7 +26,12 @@ Good solution when working with optional dependencies.
 
 ### niceRequire (module)
 
-Try importing a specified `module`, return `undefined` if fails.
+Tries importing a specified `module`, returns `undefined` if fails.
+
+### niceRequire.promise (module)
+
+Tries dynamically importing a specified `module`, returns `undefined` if fails.<br>
+**Note:** This won't work with file paths like `./index.js`.
 
 #### module
 
